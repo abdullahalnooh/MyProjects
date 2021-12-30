@@ -1,0 +1,86 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+	text-align: center;
+    background-color: #fafbfd;
+    font-family: "poppins",sans-serif;
+}
+nav {
+  color: white;
+  background-color: #129794;
+  padding: 50px;
+  margin-bottom: 20px;
+
+}
+h1{
+	font-size: 3em;
+	margin-bottom: 10px;
+}
+.qouts p{
+	font-size: 1.5em;
+}
+form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+form input {
+	border-radius:20px 0px 0px;
+}
+form button{
+	color: #129794;
+}
+form input, form button {
+	padding: 0.5rem;
+	font-size: 2rem;
+	background-color: rgb(227, 239, 239);
+	border: none;
+}
+
+.todo-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.todo-list{
+	min-width: 30%;
+	list-style: none;
+
+}
+.todo {
+	margin: 0.5rem;
+	background:#7C3245;
+	color: white;
+	font-size: 1.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: all 0.5s ease;
+}
+
+.todo li {
+	flex: 1;
+
+}
+.trash-btn, .complete-Btn{
+	background:#129794;
+	color: white;
+	border: none;
+	padding: 1rem;
+	font-size: 1rem;
+}
+
+.completed{
+	text-decoration: line-through;
+	opacity: 0.5;
+}
+.fall{
+	transform: translate(8rem) rotateZ(20deg);
+	opacity: 0;
+}
