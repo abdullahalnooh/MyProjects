@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(102, 137, 187);
+    height: 100vh;  
+    text-align: center;
+    padding: 180px 0;
+}
+
+#textplace{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 50px;
+    color: antiquewhite;
+}
+#input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: rgb(66, 64, 77);
+}
+#inputbtn{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
